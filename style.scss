@@ -4,6 +4,9 @@
     box-sizing: border-box;
     // border:1px solid red;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .container{
     margin-top:1rem ;
 }
@@ -24,25 +27,72 @@ padding: 2rem 0;
         
         width: 35%;
         .first{
+            h2{
+                padding: 0 2rem;
+                color: #333333;
+                font-size: 18px
+            }
+            .box{
+                position: relative;
+                i{ 
+                    position: absolute;
+                    top:50%;
+                    left: 0.5rem;
+                    color: #888888;
+
+                }
+            }
             form{
             padding: 2rem;
             
                 input{
-                    padding: 0.5rem;
+                    padding: 0.5rem 2rem;
                     margin: 0.5rem 0;
                     width: 30vw;
-                    
+                    border-radius: 10px;
+                    border: 1px solid #828282;
+                    font-family: Arial, Helvetica, sans-serif;
+
+                    }
+                
+                label{
+                    font-size: 12px;
+                    color: #4f4f4f;
                 }
     
             }
         }
         .second{
+            h2{
+                padding: 0 2rem;
+                color: #333333;
+                font-size: 18px;
+            }
             form{
                 padding: 2rem;
+                .box{
+                    position: relative;
+                    i{ 
+                        position: absolute;
+                        top:50%;
+                        left: 0.5rem;
+                        color: #888888;
+    
+                    }
+                }
+                label{
+                
+                    font-size: 12px;
+                    color: #4f4f4f;
+                
+                }
                 input{
-                    padding: 0.5rem;
+                    padding: 0.5rem 2rem;
                     margin: 0.5rem 0;
                     width: 30vw;
+                    border-radius: 10px;
+                    border: 1px solid #828282;
+                    font-family: Arial, Helvetica, sans-serif;
                 }
     
                 .country{
@@ -55,14 +105,37 @@ padding: 2rem 0;
 
                     }
                     select{
-                        padding: 0.5rem;
+                        padding: 0.4rem;
+                        margin: 0.5rem 0;
+                        border: 1px solid #828282;
+                        border-radius: 10px;
+                        color: #828282;
+                       
+                        
                     }
                   }
                   .lf{
+                    position: relative;
+                    i{
+                        position: absolute;
+                        top: 50%;
+                        left:0.5rem;
+                        color: #888888;
+                    }
                     input{
                         width: 20vw;
+                        
                     }
                   }
+                }
+                .last{
+                  
+                    input{
+                        padding: 0;
+                        margin: 0;
+                        display: inline;
+                        width: 1vw;
+                    }
                 }
             }
            
@@ -71,7 +144,7 @@ padding: 2rem 0;
     .right{
         width: 30%;
         position: absolute;
-        left:50%;
+        left:55%;
         background-color: #eee;
         .first-img{
             margin: 1rem;
@@ -133,5 +206,18 @@ padding: 2rem 0;
             justify-content: space-between;
             margin: 1rem;
         }
+    }
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    button{
+        padding: 0.8rem 1.5rem;
+        border-radius: 1rem;
+        background-color: orange;
+        border: none;
+        color: white;
     }
 }
