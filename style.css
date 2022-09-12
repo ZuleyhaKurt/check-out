@@ -1,3 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.container {
+  margin-top: 1rem;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.main {
+  display: flex;
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+}
+.main .left {
+  width: 35%;
+}
+.main .left .first form {
+  padding: 2rem;
+}
+.main .left .first form input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 30vw;
+}
+.main .left .second form {
+  padding: 2rem;
+}
+.main .left .second form input {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  width: 30vw;
+}
+.main .left .second form .country {
+  display: flex;
+  gap: 0.2rem;
+}
+.main .left .second form .country .rg label {
+  margin: 0.5rem 0;
+}
+.main .left .second form .country .rg select {
+  padding: 0.5rem;
+}
+.main .left .second form .country .lf input {
+  width: 20vw;
+}
+.main .right {
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  background-color: #eee;
+}
+.main .right .first-img {
+  margin: 1rem;
+  display: flex;
+}
+.main .right .first-img img {
+  width: 40%;
+}
+.main .right .first-img .vintage {
+  width: 70%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+.main .right .first-img .vintage h3 {
+  padding-bottom: 0.5rem;
+}
+.main .right .first-img .vintage .art-azalt {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem 0;
+  margin-top: 1.5rem;
+  border: 1px solid #888888;
+  border-radius: 10px;
+}
+.main .right .second-img {
+  margin: 1rem;
+  display: flex;
+}
+.main .right .second-img img {
+  width: 40%;
+}
+.main .right .second-img .levi {
+  width: 70%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+.main .right .second-img .levi h3 {
+  padding-bottom: 0.5rem;
+}
+.main .right .second-img .levi .art-azalt {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem 0;
+  margin-top: 1.5rem;
+  border: 1px solid #888888;
+  border-radius: 10px;
+}
+.main .right .ship {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.main .right .total {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
 
 /*# sourceMappingURL=style.css.map */
