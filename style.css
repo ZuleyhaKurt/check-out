@@ -20,7 +20,7 @@ body {
 .main {
   display: flex;
   position: relative;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 .main .left {
@@ -119,8 +119,9 @@ body {
 .main .right {
   width: 30%;
   position: absolute;
-  left: 55%;
+  left: 50%;
   background-color: #eee;
+  border-radius: 1rem;
 }
 .main .right .first-img {
   margin: 1rem;
@@ -128,6 +129,7 @@ body {
 }
 .main .right .first-img img {
   width: 40%;
+  border-radius: 1rem;
 }
 .main .right .first-img .vintage {
   width: 70%;
@@ -145,12 +147,16 @@ body {
   border: 1px solid #888888;
   border-radius: 10px;
 }
+.main .right .first-img .vintage .art-azalt i {
+  background-color: #e0e0e0;
+}
 .main .right .second-img {
   margin: 1rem;
   display: flex;
 }
 .main .right .second-img img {
   width: 40%;
+  border-radius: 1rem;
 }
 .main .right .second-img .levi {
   width: 70%;
@@ -167,6 +173,9 @@ body {
   margin-top: 1.5rem;
   border: 1px solid #888888;
   border-radius: 10px;
+}
+.main .right .second-img .levi .art-azalt i {
+  background-color: #e0e0e0;
 }
 .main .right .ship {
   display: flex;
